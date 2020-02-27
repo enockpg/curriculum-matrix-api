@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.matrix.model.Professor;
-import com.matrix.model.service.AbstractService;
-import com.matrix.model.service.ProfessorService;
+import com.matrix.service.AbstractService;
+import com.matrix.service.ProfessorService;
 
 @RestController
 @RequestMapping("/professor")

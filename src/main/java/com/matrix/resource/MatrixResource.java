@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.matrix.model.Matrix;
-import com.matrix.model.service.AbstractService;
-import com.matrix.model.service.MatrixService;
+import com.matrix.service.AbstractService;
+import com.matrix.service.MatrixService;
 
 @RestController
 @RequestMapping("/matrix")

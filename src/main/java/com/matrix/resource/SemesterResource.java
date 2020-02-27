@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.matrix.model.Semester;
-import com.matrix.model.service.AbstractService;
-import com.matrix.model.service.SemesterService;
+import com.matrix.service.AbstractService;
+import com.matrix.service.SemesterService;
 
 @RestController
 @RequestMapping("/semester")

@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.matrix.model.Discipline;
-import com.matrix.model.service.AbstractService;
-import com.matrix.model.service.DisciplineService;
+import com.matrix.service.AbstractService;
+import com.matrix.service.DisciplineService;
 
 @RestController
 @RequestMapping("/discipline")

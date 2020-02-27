@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 import com.matrix.model.AbstractModel;
-import com.matrix.model.service.AbstractService;
+import com.matrix.service.AbstractService;
 
 @SuppressWarnings({ "rawtypes" })
 public abstract class AbstractResource<T extends AbstractModel> {
